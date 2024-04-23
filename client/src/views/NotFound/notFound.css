@@ -1,0 +1,15 @@
+.cont-picture {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  
+  .picture-not {
+    width: 50%; 
+    max-width: 52rem; 
+    height: auto; 
+  }
+  
