@@ -1,0 +1,90 @@
+.detail-cont{
+    height: 80vh;
+}
+.sect{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 3px solid black;
+    margin: 2rem;
+    box-shadow: 0 0 30px rgba(0, 0, 0.3, 0.3); 
+}
+
+.text-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 2rem;
+    justify-content: space-around;
+    font-family: 'Catamaran', sans-serif;
+}
+.main-info{
+    display: flex;
+    width: 1000px;
+}
+.info, .info-2{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 520px;
+    height: 200px;
+    background-color: rgba(166, 168, 190, 0.3);
+}
+.tex-name{
+    margin: 1%;
+}
+.name-label {
+    color: red;
+    font-size: 20px;
+  }
+.img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -2rem;
+    width: 100px;
+    height: 50px;
+    width: 100%;
+}
+.image{
+    width: 420px;
+    height: 500px;
+    position: relative;
+    margin: 2rem 5rem;
+    border: 2px solid black;
+    box-shadow: 0 10px 20px rgba(190, 16, 16, 0.8);
+    object-fit: cover;
+}
+.description{
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    width: 1000px;
+    background-color: #D2F25C;
+}
+.btn-container-detail{
+    margin-top: 20px;
+}
+.btn-container-detail button {
+    background-color: #dc3545; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .btn-container-detail button:hover {
+    background-color: #c82333; 
+  }

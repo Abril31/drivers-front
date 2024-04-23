@@ -1,0 +1,16 @@
+.cardlist-container{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 4rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box;  
+   
+}
+/* .cardlist-container > * {
+    border: 2px solid black; 
+} */

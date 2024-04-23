@@ -1,0 +1,51 @@
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+    text-align: center;   
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+    background-color: #D2F25C;
+    
+}
+.card-container img{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-img{
+    box-sizing: border-box;
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    
+}
+.link-card{
+    text-decoration: none;
+    color:rgb(6, 3, 3);
+}
+.text-cont{    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    height: 100%;
+    padding-bottom: 0.5rem;
+    font-family: 'Catamaran', sans-serif;
+
+
+}
+.teams{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(227, 12, 12);
+    text-align: left;
+    padding-left: 2.5rem;
+    padding-right: 0.9rem;
+
+}
+span{
+    color: black;
+    text-align: left;
+    font-size: 17px;
+}

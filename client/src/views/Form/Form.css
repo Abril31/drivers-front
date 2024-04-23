@@ -1,0 +1,68 @@
+.main-form-cont {
+    display: flex;
+    height: 100vh;
+    background-image: url("../../assets/images/f80.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  
+   .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 2rem;
+    background-color: black;
+  }
+  .form-container h2{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    border: none;
+    color: #D2F25C;
+    text-align: center;
+  }
+  .form-container input{
+    font-size: 20px;
+    border: none;
+  }
+  
+  .form-container select{
+    color: black;
+    font-family: 'Catamaran', sans-serif;
+  }
+  .form-container span{
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+  }
+
+.btn-submit{
+    width: 100%;
+    font-family: 'Catamaran', sans-serif;
+    background-color: #D2F25C;
+    color: black;
+    padding: 8px 10px; 
+    font-size: 18px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin: 2px;
+}
+.btn-submit[disabled]::before{
+  content: '🚫';
+  padding: 5px;
+}
+.form-text{
+    font-family: 'Catamaran', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.error{
+    color: red;
+    font-size: 13px;
+    margin-top: 0.5rem;
+}
+

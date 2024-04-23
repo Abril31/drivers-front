@@ -1,0 +1,42 @@
+.cont-pag-or{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.cont-pag-or label{
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    padding: 1px;
+
+}
+.cont-pag-or select{
+    background-color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 13px;
+    padding: 5px 5px;
+}
+.cont-pag-or select option{
+    background-color: #0D0A0C;
+    color: white;
+}
+.cont-pag-or button{
+    background-color: #DD1C1A; 
+    font-family: 'Catamaran', sans-serif;
+    color: #ffffff; 
+    padding: 8px 10px; 
+    font-size: 14px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    margin: 2px;
+}
+.cont-pag-or button:hover {
+    background-color: #D2F25C;
+    color: #3C3940;
+  }
