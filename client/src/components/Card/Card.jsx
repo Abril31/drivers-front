@@ -7,7 +7,7 @@ const Card = ({ id, forename, surname, image, teams, dob }) => {
     <Link className="link-card" to={`/detail/${id}`}>
       <div className="card-container">
         <div className="card-img">
-          <img src={image} alt={forename} />
+          <img src={image} alt={forename} loading="lazy" />
         </div>
         <div className="cont-2">
           <div className="text-cont">

@@ -16,9 +16,7 @@ import axios from "axios";
 export const getDrivers = () => {
   return async function (dispatch) {
     try {
-      const response = await axios.get(
-        "https://drivers-back-y8o1.onrender.com/drivers"
-      );
+      const response = await axios.get("/drivers");
       const drivers = response.data;
       dispatch({
         type: GET_DRIVERS,
@@ -32,9 +30,7 @@ export const getDrivers = () => {
 export const getDriver = (id) => {
   return async function (dispatch) {
     try {
-      const response = await axios.get(
-        `https://drivers-back-y8o1.onrender.com/drivers/${id}`
-      );
+      const response = await axios.get(`/drivers/${id}`);
       const driver = response.data;
       dispatch({
         type: GET_DRIVER_BY_ID,
@@ -48,9 +44,7 @@ export const getDriver = (id) => {
 export const searchDriver = (name) => {
   return async function (dispatch) {
     try {
-      const response = await axios.get(
-        `https://drivers-back-y8o1.onrender.com/drivers?name=${name}`
-      );
+      const response = await axios.get(`/drivers?name=${name}`);
       const getDriverByName = response.data;
       dispatch({
         type: SEARCH_DRIVER,
@@ -67,9 +61,7 @@ export const searchDriver = (name) => {
 export const getTeams = () => {
   return async function (dispatch) {
     try {
-      const response = await axios.get(
-        "https://drivers-back-y8o1.onrender.com/teams"
-      );
+      const response = await axios.get("/teams");
       const dataTeams = response.data;
       dispatch({
         type: GET_ALL_TEAMS,
@@ -99,10 +91,7 @@ export const cleanDriver = () => {
 export const postDriver = (state) => {
   return async function () {
     try {
-      const response = await axios.post(
-        "https://drivers-back-y8o1.onrender.com",
-        state
-      );
+      const response = await axios.post("/drivers", state);
       const createDriver = response.data;
       return createDriver;
     } catch (error) {
